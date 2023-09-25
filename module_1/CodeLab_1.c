@@ -13,6 +13,6 @@ int main() {
 	printf("Bilangan c: %.2f\n", c);
 	printf("Bilangan d: %.2f\n", d);
 	printf("Karakter e: %c\n", e);
-	printf("Hasil: %f\n", sum);
+	printf("Hasil: %d\n", sum);
 	return 0;
 }
