@@ -18,7 +18,7 @@ int main() {
 		}else {
 			printf("Nilai Anda adalah E.\n");
 		}
-		printf("Program Selesai");
+		printf("Program Selesai\n");
 	}else{
 		printf("Input tidak valid. Nilai harus berada dalam rentang 0 hingga 100.\n");
 	}
