@@ -58,10 +58,11 @@ int main() {
         default:
             printf("Minuman Yang Anda Minta Tidak Tersedia");
     }
-    scanf("%c", &Member);
+    printf("Apakah Anda Adalah Member (Y/N): ");
+    scanf(" %c", &Member);
 
-    if(Member=='y'){
-        Harga = (Harga * 10) / 100;
+    if(Member=='y'||Member=='Y'){
+        Harga = Harga - (Harga * 10) / 100;
     }
 
     printf("Total Harga: Rp. %.2f\n", Harga);
