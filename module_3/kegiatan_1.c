@@ -11,11 +11,11 @@ char Member;
 
 int main() {
 
-    printf("1. Mie Goreng\tRp. 10.000\n2. Bakso\tRp. 8.000\n3. Cireng\tRp. 5.000\n4. Nasi Goreng\tRp. 10.000\n5. Batagor\tRp. 5.000\n");
+    printf("=== Rumah Makan ===\nMenu Makanan: \n1. Mie Goreng\tRp. 10.000\n2. Bakso\tRp. 8.000\n3. Cireng\tRp. 5.000\n4. Nasi Goreng\tRp. 10.000\n5. Batagor\tRp. 5.000\n\n");
     printf("Pilih menu makanan (1-5): ");
     scanf("%d", &PilihMakan);
     
-    printf("\n\n1. Es Jeruk\tRp. 4.000\n2. Es Buah\tRp. 8.000\n3. Es Teh\tRp. 4.000\n4. Es Nutrisari\tRp. 5.000\n5. Es Milo\tRp. 6.000\n");
+    printf("\n\nMenu Minuman: \n1. Es Jeruk\tRp. 4.000\n2. Es Buah\tRp. 8.000\n3. Es Teh\tRp. 4.000\n4. Es Nutrisari\tRp. 5.000\n5. Es Milo\tRp. 6.000\n\n");
     printf("Pilih menu minuman (1-5): ");
     scanf("%d", &PilihMinum);
 
