@@ -11,7 +11,7 @@ int main() {
 	bool isFalse = false;
 	printf("Boolean values:\n");
 	printf("isTrue: %d\n", isTrue);
-	printf("isFalse: %d\n", isTrue);
+	printf("isFalse: %d\n", isFalse);
 
 	// Strings
 	char str1[] = "Hello";
