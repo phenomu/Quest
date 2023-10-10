@@ -11,7 +11,7 @@ int main() {
     printf("Masukkan Nilai Biologi: ");
     scanf("%f", &Bio);
 
-    Rata2 = (Mat * 4 + Fis * 3 + Bio * 2) / 9;
+    Rata2 = (Mat + Fis + Bio ) / 3;
     printf("\nNilai Rata-rata: %.2f\n", Rata2);
 
     return 0;
