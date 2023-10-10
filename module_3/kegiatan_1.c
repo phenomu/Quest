@@ -69,7 +69,13 @@ int main() {
     printf("Alamat Memori Variable Total: %p\n", &Harga);
     printf("Masukan Uang Pembayaran: ");
     scanf("%f", &Pembayaran);
-    printf("Kembalian Anda: Rp. %.2f\n",(Pembayaran - Harga));
+    if( (Pembayaran - Harga) < 0 ){
+        printf("Uang Yang Anda Bayarkan Kurang\n");
+    }else if(Pembayaran == Harga){
+        printf("Terimakasih Telah Berbelanja Di Toko Kami\n");
+    }else{
+        printf("Kembalian Anda: Rp. %.2f\n",(Pembayaran - Harga));
+    }
 
     return 0;
 }
