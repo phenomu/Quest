@@ -13,7 +13,7 @@ int main() {
 			printf("Nilai Anda adalah B.\n");
 		}else if (nilai >= 70) {
 			printf("Nilai Anda adalah C.\n");
-		}else if (nilai > 60) {
+		}else if (nilai >= 60) {
 			printf("Nilai Anda adalah D.\n");
 		}else {
 			printf("Nilai Anda adalah E.\n");
