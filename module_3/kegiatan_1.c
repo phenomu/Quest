@@ -1,9 +1,9 @@
 #include <stdio.h>
 enum Makanan {
-        Mie, Bakso, Cireng, Nasgor, Batagor
+        Mie = 10000, Bakso = 8000, Cireng = 5000, Nasgor = 10000, Batagor = 5000
     };
 enum Minuman {
-        Jeruk, Buah, Teh, Nutrisari, Milo
+        Jeruk = 4000, Buah = 8000, Teh = 4000, Nutrisari = 5000, Milo = 4000
     };
 int PilihMakan, PilihMinum;
 float Harga, Pembayaran;
@@ -21,19 +21,19 @@ int main() {
 
     switch(PilihMakan){
         case 1:
-            Harga += 10000;
+            Harga += Mie;
             break;
         case 2:
-            Harga += 8000;
+            Harga += Bakso;
             break;
         case 3:
-            Harga += 5000;
+            Harga += Cireng;
             break;
         case 4:
-            Harga += 10000;
+            Harga += Nasgor;
             break;
         case 5:
-            Harga += 5000;
+            Harga += Batagor;
             break;
         default:
             printf("Makanan Yang Anda Minta Tidak Tersedia");
@@ -41,19 +41,19 @@ int main() {
 
     switch(PilihMinum){
         case 1:
-            Harga += 4000;
+            Harga += Jeruk;
             break;
         case 2:
-            Harga += 8000;
+            Harga += Buah;
             break;
         case 3:
-            Harga += 4000;
+            Harga += Teh;
             break;
         case 4:
-            Harga += 5000;
+            Harga += Nutrisari;
             break;
         case 5:
-            Harga += 6000;
+            Harga += Milo;
             break;
         default:
             printf("Minuman Yang Anda Minta Tidak Tersedia");
